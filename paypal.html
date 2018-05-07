@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Incialización Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+
+<div class="col-md-12">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="K66YH32MSTHL2">
+            <table class="col-md-12">
+              <tr><td><input type="hidden" name="on0" value="Nombre del menú desplegable">Tipo de departamento</td></tr><tr><td><select name=" os0">
+                <option value="Hogar 1 Piso">Hogar 1 Piso $200.00 MXN</option>
+                <option value="Hogar 2 Piso">Hogar 2 Piso $280.00 MXN</option>
+                <option value="Hogar 3 Piso">Hogar 3 Piso $350.00 MXN</option>
+                <option value="Evento Departamento">Evento Departamento $300.00 MXN</option>
+                <option value="Evento Hogar">Evento Hogar $400.00 MXN</option>
+                <option value="Evento Terraza">Evento Terraza $800.00 MXN</option>
+                <option value="Departamento">Departamento $300.00 MXN</option>
+                <option value="Mansion">Mansion $2,000.00 MXN</option>
+                <option value="Suite">Suite $1,500.00 MXN</option>
+              </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="MXN">
+            <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+          </form>
+		  
+</body>
+</html>
